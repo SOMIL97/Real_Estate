@@ -233,6 +233,6 @@ plot(LRf,which = 4) #gives cooks distance
 PP_test_final=predict(LRf,newdata =test)
 PP_test_final=round(PP_test_final,1)
 class(PP_test_final)
-write.csv(PP_test_final, "PP_test_final.csv")#stores the predicted prices in a csv file on your local repository in pc.
+write.csv(PP_test_final, "Somil_Taneja_P1_part2.csv")#stores the predicted prices in a csv file on your local repository in pc.
 summary(LRf)
 
